@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+a:link{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+ 
+    .middle{
+     
+       position: fixed;
+       height: 100vh;
+       width: 100%;
+       
+
+    }
+
+    .gimage{
+        position: relative;
+      
+       top: 25%;
+       right: 0;
+       left: 0;
+       margin: auto;
+       
+       display: block;
+
+      
+        
+    }
+
+    .formy{ 
+        position: relative;
+        top: 28%;
+       right: 0;
+       left: 0;
+       margin: auto;
+       border-radius: 20px;
+       border: 1px solid silver;
+       width: 600px;
+       height: 50px;
+       font-size: medium;
+       z-index: 98;
+       text-indent: 8%;
+       background-color: transparent;
+       
+       display: block;
+        
+    }
+
+    .Gsearch{
+        position: relative;
+        top: 30%;
+        left: 42%;
+       
+       margin: auto;
+       display: inline;
+       padding: 15px;
+       background-color: whitesmoke;
+       font-size: medium;
+       font-family: Times New Roman;
+       border: none;
+
+
+
+    }
+
+    .glass{
+        position: relative;
+        top: 43.5%;
+       z-index: 99;
+       left: -14.5%;
+       margin: auto;
+       display: block;
+       width: 33px;
+       height: 33px;
+
+    }
+
+.headercontainer{
+  
+ 
+display:grid;
+
+grid-template-columns: 1fr 1 fr 1fr 1fr;
+grid-template-areas: "head . . head2";
+
+}
+
+
+.header{
+    grid-area: head;
+    padding: 10px;
+
+}
+
+.Header2{
+    grid-area: head2;
+  
+    padding: 10px;
+    text-align: right;
+
+}
+
+.About{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    font-size: small;
+
+}
+
+a:link{
+    text-decoration: none;
+    
+}
+
+.Store{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    font-size: small;
+
+}
+
+.Gmail{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: small;
+
+}
+
+.Images{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: small;
+}
+
+
+.appicon{
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+}
+
+.signin{
+    text-align: center;
+    font-weight: bold;
+    color:  white;
+    padding: 5px;
+    background-color: #4285f4;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 15px;
+
+}
+
+.words{
+    position: relative;
+        top: 38%;
+       right: 0;
+       left: 0;
+       margin: auto;
+       display: block;
+}
+
+.rands{
+    position: relative;
+        top: 35%;
+        left:28%;
+        font-size: small;
+}
+
+.uk{
+    background-color: whitesmoke;
+    position: relative;
+    color: grey;
+    top: 64%;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-top: 0.5px solid grey;
+    font-size: medium;
+    font-family: 'Times New Roman'
+
+}
+.footer{
+    background-color: whitesmoke;
+    position: relative;
+    color: grey;
+    top: 64%;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-top: 0.5px solid grey;
+    font-size: medium;
+    font-family: 'Times New Roman';
+    display: grid;
+    grid-template-areas: "foot1 . foot2 . foot3";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+
+
+}
+
+.meh{
+    grid-area: foot1;
+    text-decoration: none;
+    color: grey;
+
+}
+.meh2{
+    grid-area: foot2;
+    text-decoration: none;
+    color: grey;
+    
+}
+.meh3{
+    grid-area: foot3;
+    text-decoration: none;
+    color: grey;
+    text-align: right;
+    margin-right: 20px;
+    
+ 
+}
+
+.meh5{
+    grid-area: foot3;
+    text-decoration: none;
+    color: grey;
+    
+}
+
+.meh6{
+    grid-area: foot3;
+    text-decoration: none;
+    color: grey;
+    
+    
+}
+        
+     
+
+</style>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body class="boody">     
+        <div class= "headercontainer">
+            <div class="header">
+                <a href="#" class="About">About</a>
+                <a href="#" class= "Store">Store</a>
+            </div>
+
+            <div class="Header2">
+                <a href="#" class= "Gmail">Gmail</a>
+                <a href="#" class= "Images">Images</a>
+                <img src="https://www.pngkey.com/png/detail/207-2070054_grid-menu-gallery-set-collection-android-interface-google.png" class="appicon">
+                <a href="#" class="signin">Sign in</a>
+
+
+            </div>
+
+            <div class="middle">
+                <img src="/home/ife/Documents/Screenshot_2021-01-13 Google.png" class="glass">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="gimage">
+                <input class="formy" type="text">
+                <button type="button" class="Gsearch"> Google Search</button>
+                <button type="button" class="Gsearch"> I'm Feeling Lucky</button>
+                <p5 class="rands"> Start 2021 with <a href="#">free courses from Google</a> </p5>
+                <p5 class= "uk">United Kingdom</p5>
+                <span class="footer"> 
+                    <p5 class="meh"><a href="#" class="meh"> Advertising</a> <a href="#" class="meh5"> Business</a> <a href="#" class="meh"> How Stuff Works</a></p5>
+                    <p5 class="meh2"><a href="#" class="meh2"> Carbon Neutral since 2007</a> </p5>
+                    <p5 class="meh3"><a href="#" class="meh3"> Privacy</a> <a href="#" class="meh3"> Terms</a> <a href="#" class="meh6"> Settings</a> </p5>
+
+                </span>
+              
+
+            </div>
+
+           
+
+           
+
+            
+                
+            
+        </div>
+
+
+
+
+    </body>
+
+</html> 
